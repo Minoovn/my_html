@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>minou's secound exercise</title>
+        <style>
+            body {background-image:url(background.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;}
+            h1 {color: blue ;}
+            p1 {color: red;}
+            p2 {color: blueviolet;}
+            a:link{color: green;
+                   background-color: transparent;
+                   text-decoration: none;}
+            a:visited{color: burlywood;
+                       background-color: transparent;
+                       text-decoration: palevioletred;} 
+            a:hover {color: red;
+                     background-color: transparent;
+                     text-decoration: underline;}
+            a:active { color: yellow;
+                     background-color: transparent;
+                     text-decoration: underline;}  
+
+        </style>
+    </head>
+    <body>
+        <h1 ><strong>HTML Quotation and Citation Elements
+        </strong></h1>
+        <p1 style="border: 2cap purple;">the person<abbr title="minou"> who </abbr>practice this file</p1>
+        <p2 style="border: 0.5cm red;"><br>I wite<q>this page</q></p2>
+        <p3><Br>The HTML address element defines contact information (author/owner) of a document or article.</p3>
+            <address><br> written by: minou
+            <br>visit us in:</address>
+        <!--HTML comments are not displayed in the browser, but they can help document your HTML source code.-->
+        <p4><br>this shows you the link of amazon</p4> 
+        <a href="https://www.amazon.de/-/en/ref=nav_logo" target="_blank">amazon link</a>
+        <p5><br>use image to the link </p5>
+        <a href="https://www.google.com">
+            <img 
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-ai-image%2Fgoogle-logo-white-background_359665389.htm&psig=AOvVaw3RsXTID4ZJyS1zfeA9X9hF&ust=1735401113650000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJj24YmnyIoDFQAAAAAdAAAAABAJ" 
+              alt="Google logo" 
+              style="width: 50px; height: 50px;">
+        
+          </a>
+          <p6><Br>if you want to con tact me <a href="mailto:minoovn@gmai.com"> send email </a></p6>
+        <h2 style="color: red;"><b>Button as a Link</b></h2>
+        <p7>To use an HTML button as a link, you have to add some JavaScript code. </p7>
+        <p8><br>Click the button to go to the HTML tutorial</p8>
+        <button onclick="window.location.href='https://www.amazon.de/-/en/ref=nav_logo';">amazon</button>
+        <button onclick="window.open('https://www.amazon.de/-/en/ref=nav_logo', '_blank');">amazon</button>
+        <h3>Link Titles</h3>
+        <p9>The title attribute specifies extra information about an element.
+             The information is most often shown as a tooltip text when the mouse moves over the element.</p9>
+             <a href="https://www.adobe.com/products/substance3d.html" title="3d model">3d modeling</a>
+        <h4 style="color: red;">image</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbFQuzVT0jy6onVAi7mz92GqC4sk8oHvzsA&s" 
+             alt="squid_game" width="200" height="200">
+        <img src="squid_game.jfif" alt="squid_game" width="200" height="200">
+        <img src="https://www.icegif.com/wp-content/uploads/2022/01/icegif-1210.gif" alt="squid_game" 
+                 width="300" height="200">
+        <h5 style="color: red;"><b>image map</b></h5>     
+        
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+         <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+         <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+         <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+        </map>
+        <!--use image map generator to find coords-->
+
+
+
+
+
+    </body>
+</html>
